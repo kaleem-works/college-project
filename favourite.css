@@ -1,0 +1,15 @@
+* {
+    background-color: rgb(223, 212, 212);
+    color: black;
+}
+a{
+    text-decoration: none;
+}
+.links{
+    width: 45%;
+    height: inherit;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}

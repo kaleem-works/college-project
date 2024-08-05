@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.navbar{
+    width: 100%;
+    height: 60px; 
+    display: flex;
+    position: relative;
+    /* background-color: aqua; */
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 25%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+
+}
+.logo  img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+}
+
+.links{
+    width: 45%;
+    height: inherit;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.links a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    
+}
+.slogan {
+    width: 100%;
+    height: 50px;
+    padding-left: 30%;
+    /* background-color: rgb(238, 166, 166); */
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+}
+.slogan a{
+    text-decoration: none;
+    color: black;
+}
+.main{
+    width: inherit;
+    height: auto;
+    padding: 20px;
+    /* background-color: aqua; */
+}
+.content {
+    height: auto;
+    width: inherit;
+    padding: 10px;
+    /* display: flex; */
+    /* border: 2px solid black; */
+}
+.upper_book_img {
+    width: inherit;
+    height: 60vh;
+    border: 2px solid rgb(145, 20, 20);
+    margin-top: 10px;
+    margin-bottom: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+
+.lower_book_img {
+    width: inherit;
+    height: 60vh;
+    border: 2px solid rgb(145, 20, 20);
+    margin-top: 20px;
+    margin-bottom: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.btn {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: right;
+
+}
+button{
+    width: 90px;
+    height: 40px;
+}
+button :hover{
+    background-color: solid rgb(14, 14, 209);
+
+}
+.motive {
+    width: 100%;
+    height: 90px;
+    /* background-color: rgb(10, 10, 10); */
+    /* display: flex; */
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    text-align: center;
+    /* border: 2px solid black; */
+}
+.ftr_anchor{
+    height: 20px;
+    width: 100%;
+    /* background: aqua; */
+    color: white;
+    display: flex;
+    align-items: center;
+    /* border: 2px solid black; */
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    padding: 30px;
+    margin-left: 20px;
+    /* text-9align: center; */
+}
+a{
+    text-decoration: none;
+    color: black;
+}
